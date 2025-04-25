@@ -7,9 +7,6 @@ console.log(flavorsInput);
 const flavorsList = flavorsInput.split(",");
 console.log(flavorsList);
 
-// put duplicate flavors from flavorsList into an object with a value of how many times they are in the flavorsList
-
-//
 function flavorCount(flavorsList) {
   const flavorsObject = {};
 
